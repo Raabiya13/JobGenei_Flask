@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 app = Flask(__name__)
 app.secret_key = b'Ovp\xb7+I\xb2\xac\xf3$!1\x8e\xfd^[e0R\xa0s\xd9\xcc\xb5'
-genai.configure(api_key="AIzaSyAzOTxpzYqxx1f4cpy-duUcqdughHlktAQ")  # Replace with your actual API key
+genai.configure(api_key="AIzaSyB8eaY5kLZdUawsSfEHRUXNorEYni0IJxg")  # Replace with your actual API key
 
 mymodel = genai.GenerativeModel("gemini-1.5-flash")
 chat = mymodel.start_chat()
